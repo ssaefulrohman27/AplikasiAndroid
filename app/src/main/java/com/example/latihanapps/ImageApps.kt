@@ -15,6 +15,7 @@ import android.content.res.Resources
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
 
@@ -44,13 +45,13 @@ fun showImageApps() {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier
-            .fillMaxHeight()
+            .fillMaxSize()
     ) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Surface(
-                color = Color(0xffDC052D),
+                color = Color(0xFF4934EB),
                 modifier = Modifier.size(surfaceWidth.dp, surfaceHeight.dp)
             ) {
                 Column(
@@ -59,19 +60,19 @@ fun showImageApps() {
                     modifier = Modifier.fillMaxSize()
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.logopramuka),
-                        contentDescription = "Logo Pramuka DUnia",
+                        painter = painterResource(id = R.drawable.arema),
+                        contentDescription = "Arema FC",
                         alignment = Alignment.Center,
                         modifier = Modifier.padding(8.dp)
                     )
                     Text(
-                        text = "WOSM",
+                        text = "AREMA FC",
                         fontSize = 16.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
                     )
                     Text(
-                        text = "Pramuka DUnia",
+                        text = "MALANG",
                         fontSize = 14.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
@@ -79,7 +80,7 @@ fun showImageApps() {
                 }
             }
             Surface(
-                color = Color(0xff004170),
+                color = Color(0xff00176c),
                 modifier = Modifier.size(surfaceWidth.dp, surfaceHeight.dp)
             ) {
                 Column(
@@ -88,19 +89,19 @@ fun showImageApps() {
                     modifier = Modifier.fillMaxSize()
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.logopramuka),
-                        contentDescription = "Pramuka Indonesia",
+                        painter = painterResource(id = R.drawable.persib),
+                        contentDescription = stringResource(R.string.persib),
                         alignment = Alignment.Center,
                         modifier = Modifier.padding(8.dp)
                     )
                     Text(
-                        text = "Pramuka",
+                        text = "PERSIB BANDUNG",
                         fontSize = 16.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
                     )
                     Text(
-                        text = "Logo Pramuka Indonesia",
+                        text = "BANDUNG",
                         fontSize = 14.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
@@ -108,7 +109,7 @@ fun showImageApps() {
                 }
             }
             Surface(
-                color = Color(0xffecf3fd),
+                color = Color(0xffff8242),
                 modifier = Modifier.size(surfaceWidth.dp, surfaceHeight.dp)
             ) {
                 Column(
@@ -117,19 +118,19 @@ fun showImageApps() {
                     modifier = Modifier.fillMaxSize()
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.logopramuka),
-                        contentDescription = "Logo Pramuka DUnia",
+                        painter = painterResource(id = R.drawable.persija),
+                        contentDescription = stringResource(R.string.persija),
                         alignment = Alignment.Center,
                         modifier = Modifier.padding(12.dp)
                     )
                     Text(
-                        text = "WoSM",
+                        text = "PERSIJA",
                         fontSize = 16.sp,
                         color = Color.DarkGray,
                         textAlign = TextAlign.Center
                     )
                     Text(
-                        text = "Pramuka Dunia",
+                        text = "JAKARTA",
                         fontSize = 14.sp,
                         color = Color.DarkGray,
                         textAlign = TextAlign.Center
@@ -141,7 +142,7 @@ fun showImageApps() {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Surface(
-                color = Color(0xff004D98),
+                color = Color(0xff008000),
                 modifier = Modifier.size(surfaceWidth.dp, surfaceHeight.dp)
             ) {
                 Column(
@@ -150,19 +151,19 @@ fun showImageApps() {
                     modifier = Modifier.fillMaxSize()
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.logopramuka),
-                        contentDescription = "Pramuka Indonesia",
+                        painter = painterResource(id = R.drawable.persebaya),
+                        contentDescription = "PERSEBAYA",
                         alignment = Alignment.Center,
                         modifier = Modifier.padding(8.dp)
                     )
                     Text(
-                        text = "Logo Pramuka",
+                        text = stringResource(R.string.persebaya),
                         fontSize = 16.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
                     )
                     Text(
-                        text = "Pramuka",
+                        text = "SURABAYA",
                         fontSize = 14.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
@@ -179,19 +180,19 @@ fun showImageApps() {
                     modifier = Modifier.fillMaxSize()
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.logopramuka),
-                        contentDescription = "Logo Pramuka Dunia",
+                        painter = painterResource(id = R.drawable.persigar),
+                        contentDescription = "PERSIGAR",
                         alignment = Alignment.Center,
                         modifier = Modifier.padding(8.dp)
                     )
                     Text(
-                        text = "WoSM",
+                        text = "PERSIGAR",
                         fontSize = 16.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
                     )
                     Text(
-                        text = "Pramuka DUnia",
+                        text = "GARUT",
                         fontSize = 14.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
@@ -199,7 +200,7 @@ fun showImageApps() {
                 }
             }
             Surface(
-                color = Color(0xffDA291C),
+                color = Color(0xffd7ea04),
                 modifier = Modifier.size(surfaceWidth.dp, surfaceHeight.dp)
             ) {
                 Column(
@@ -208,19 +209,19 @@ fun showImageApps() {
                     modifier = Modifier.fillMaxSize()
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.logopramuka),
-                        contentDescription = "Logo Pramuka Indonesia",
+                        painter = painterResource(id = R.drawable.persikab),
+                        contentDescription = "PERSIKAB",
                         alignment = Alignment.Center,
                         modifier = Modifier.padding(8.dp)
                     )
                     Text(
-                        text = "Pramuka",
+                        text = "PERSIKAB",
                         fontSize = 16.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
                     )
                     Text(
-                        text = "Indonesia",
+                        text = "KABUPATEN BANDUNG",
                         fontSize = 14.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
