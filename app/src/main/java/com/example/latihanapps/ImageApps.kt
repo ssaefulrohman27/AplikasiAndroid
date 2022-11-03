@@ -95,7 +95,7 @@ fun showImageApps() {
                         modifier = Modifier.padding(8.dp)
                     )
                     Text(
-                        text = "PERSIB BANDUNG",
+                        text = stringResource(R.string.bandung),
                         fontSize = 16.sp,
                         color = Color.White,
                         textAlign = TextAlign.Center
